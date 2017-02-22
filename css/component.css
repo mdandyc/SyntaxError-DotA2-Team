@@ -42,6 +42,17 @@
 	-moz-transition: -moz-transform 0.5s, opacity 0.5s;
 	transition: transform 0.5s, opacity 0.5s;
 }
+.cbp-so-profile {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 3em 4%;
+	overflow: hidden;
+	min-height: 12em;
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	-moz-transition: -moz-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
 
 /* Clear floats of children */
 .cbp-so-side:before,

@@ -1,0 +1,12 @@
+.sponsor{
+	background: url(../img/direBbMATbw.png) no-repeat;
+}
+.sponsor:hover{ 
+	background: url(../img/direBbMAT.png) no-repeat;
+}
+.sponsor2{
+	background: url(../img/hyperXmanufacturerbw.png) no-repeat;
+}
+.sponsor2:hover{ 
+	background: url(../img/hyperXmanufacturer.png) no-repeat;
+}
