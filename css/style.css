@@ -15,10 +15,17 @@
 	color: white;
 	margin-bottom: 150px;
 }
+.ourteam{
+	font-size: 15px;
+	color: white;
+}
 @font-face{
 font-family: "BlackOpsOne-Regular";
 src:url(../fonts/BlackOpsOne-Regular.ttf);
 }
 .ourspons h1{
     font-family: 'BlackOpsOne-Regular';
+}
+.sponsorour{
+
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
  <head>
+
 <meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -9,30 +10,16 @@
 		<meta name="keywords" content="on scroll, effect, slide in, layout, template, transition, javascript" />
 		<meta name="author" content="">
     <!-- Bootstrap Core CSS -->
-    	<link href="css/bootstrap.min.css" rel="stylesheet">
+    	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Theme CSS -->
     	<link href="css/clean-blog.min.css" rel="stylesheet">
 		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
 		<link rel="shortcut icon" href="http://orig05.deviantart.net/97fe/f/2013/332/c/4/dota_2_icon_by_benashvili-d6w0695.png">
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" href="css/site-277d2479.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/onepage.css">
-	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-
 		<script src="js/modernizr.custom.js"></script>
-		<script>
-	  $(document).ready(function(){
-      $(".main").onepage_scroll({
-        sectionContainer: "section",
-        responsiveFallback: 600,
-        loop: true
-      });
-		});
-		
-	</script>
 
 <script type="text/javascript">
 var _gaq = _gaq || [];
@@ -46,8 +33,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </script>
 </head> 
 <body>
-  <div class="wrapper">
-<div class="main">
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -72,7 +57,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                         <a href="#team">Team</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -80,8 +65,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
         </div>
         <!-- /.container -->
     </nav>
-
-        <header class="intro-header page1" style="background-image: url('img/thermalteam.jpg');height:700px;">
+        <header class="intro-header" style="background-image: url('img/thermalteam.jpg');height:700px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -94,12 +78,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
             </div>
         </div>
     </header>
-    <div class="page2">
-    <div class="container">
-        <div class="row">
-        <div id="cbp-so-scroller" class="cbp-so-scroller">
-        <div id="cbp-so-scroller" class="cbp-so-scroller">
-			<section class="cbp-so-section" id="sponsors">
+     <div id="cbp-so-scroller" class="cbp-so-scroller">
+         <header class="intro-header sponsorour" style="background-image: url('img/bg2.jpg');height:700px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                			<section class="cbp-so-section" id="sponsors">
                     <div class="ourspons">
                         <h1>Our Sponsor</h1>
                         <hr class="large">   
@@ -132,13 +116,27 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 						<br>
 						<br>
 						<br>
+						<br>
+						<br>
+						<br>
+						<br>
 						</div>
 					</article>
 				</section>
-</div>
-			
-				<section class="cbp-so-section page3" id="team">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="cbp-so-scroller" class="cbp-so-scroller">
+         <header class="intro-header sponsorour" style="background-image: url('img/bg2.jpg');height:700px;">
+
+                
+				<section class="cbp-so-section" id="team">
 				<article class="cbp-so-profile cbp-so-side-left">
+                    <div class="ourteam">
+                        <h1 style="text-align:center;">Our Team</h1>
+                        <hr class="large">   
+                    </div>
 					<section class="team-reveal" id="team-reveal">
 					  <div class="team-reveal__container">
 					    <div class="team-reveal__item"
@@ -180,31 +178,61 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 					        Jonassomfan
 					      </div>
 					      <a href="https://twitter.com/jonassomfan"><img src="img/twitter-7080c432.svg" class="team-reveal__twitter" alt="Twitter" /></a>
-					    </div>
+					    
 					  </div>
-					</section>
+					  </section>
+					  </article>
+				</section>
+        </div>
+    </header>
+
+		</div>
+    	</div>
+
+    	         <header class="intro-header sponsorour" style="background-image: url('img/bg2.jpg');height:100%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+				<section class="cbp-so-section" id="contact">
+                    <div class="ourspons">
+                        <h1>Contact Us</h1>
+                        <hr class="large">   
+                    </div>
+					<figure class="cbp-so-side cbp-so-side-left">
+						<img src="img/text.png" alt="img01">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						 <div class="form-group">
+						  <label for="usr">Name:</label>
+						  <input type="text" class="form-control" id="usr">
+						</div>
+						<div class="form-group">
+						  <label for="pwd">Password:</label>
+						  <input type="password" class="form-control" id="pwd">
+						</div>
 					</article>
-					</section>
-					</div>
-			</div>
-			</div>
-			</div>
-		</div>
-		</div>
+				</section>	
+                </div>
+            </div>
+        </div>
+    </header>
+    	    
+
+
 
     <script src="js/classie.js"></script>
 		<script src="js/cbpScroller.js"></script>
 		<script>
 			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
 		</script>
-
+<script src="vendor/jquery/jquery.min.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/cbpScroller.js"></script>
 
     
-    <script src="js/bootstrap.min.js"></script>
-	<script src="vendor/jquery/jquery.min.js"></script>
-  		<script type="text/javascript" src="js/onepage.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
 
