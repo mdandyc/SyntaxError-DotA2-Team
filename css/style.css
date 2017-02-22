@@ -10,3 +10,15 @@
 .sponsor2:hover{ 
 	background: url(../img/hyperXmanufacturer.png) no-repeat;
 }
+.ourspons{
+	font-size: 15px;
+	color: white;
+	margin-bottom: 150px;
+}
+@font-face{
+font-family: "BlackOpsOne-Regular";
+src:url(../fonts/BlackOpsOne-Regular.ttf);
+}
+.ourspons h1{
+    font-family: 'BlackOpsOne-Regular';
+}
