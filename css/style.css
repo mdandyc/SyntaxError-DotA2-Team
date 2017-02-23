@@ -10,14 +10,69 @@
 .sponsor2:hover{ 
 	background: url(../img/hyperXmanufacturer.png) no-repeat;
 }
+.twitch img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+   margin-bottom:40px; 
+   width: 250px;
+   height: 160px;
+   margin-right: 150px;
+}
+.twitch img:hover {
+   -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
+.g2a img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+   margin-bottom:40px; 
+   width: 350px;
+   height: 160px;
+}
+.g2a img:hover {
+   -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
+
 .ourspons{
 	font-size: 15px;
 	color: white;
-	margin-bottom: 150px;
+	margin-bottom: 0px;
 }
 .ourteam{
 	font-size: 15px;
 	color: white;
+}
+.ig img{
+	width: 20px;
+	height: 20px;
+	vertical-align: center;
+	position: absolute;
+	right: 15px;
+	bottom:40px;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.twitch1 img{
+	width: 20px;
+	height: 20px;
+	vertical-align: center;
+	position: absolute;
+	right: 15px;
+	bottom:65px;
+	cursor: pointer;
 }
 @font-face{
 font-family: "BlackOpsOne-Regular";
@@ -26,6 +81,6 @@ src:url(../fonts/BlackOpsOne-Regular.ttf);
 .ourspons h1{
     font-family: 'BlackOpsOne-Regular';
 }
-.sponsorour{
-
+.contact{
+	width: 100%;
 }
