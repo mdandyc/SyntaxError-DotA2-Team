@@ -7,7 +7,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Thermal Team Dota 2</title>
 		 <meta name="description" content="">
-		<meta name="keywords" content="on scroll, effect, slide in, layout, template, transition, javascript" />
 		<meta name="author" content="">
     <!-- Bootstrap Core CSS -->
     	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,9 +19,13 @@
 		<link rel="stylesheet" href="css/site-277d2479.css">
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/modernizr.custom.js"></script>
+		
 
 </head> 
 <body>
+<div class="loader">
+      <div class="fading-line"></div>
+    </div>
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,16 +41,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#home" id="homes">Home</a>
                     </li>
                     <li>
-                        <a href="#sponsors">Sponsors</a>
+                        <a href="#sponsors" id="spon">Sponsors</a>
                     </li>
                     <li>
-                        <a href="#team">Team</a>
+                        <a href="#team" id="teams">Team</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#contact" id="contacts">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -55,7 +58,7 @@
         </div>
         <!-- /.container -->
     </nav>
-        <header class="intro-header" style="background-image: url('img/thermalteam.jpg');height:700px;">
+        <header class="intro-header" style="background-image: url('img/thermalteam.jpg');height:700px;" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -64,6 +67,12 @@
                         <hr class="small">
                         <span class="subheading">A Team Without Inspiration</span>
                     </div>
+
+                </div>
+                <div class="row">
+                <div class="zoom-effect2" id="begin">
+                <a href="#sponsors"><img src="img/homescroll.png"></a>
+                </div>
                 </div>
             </div>
         </div>
@@ -78,48 +87,32 @@
                         <h1>Our Sponsor</h1>
                         <hr class="large">   
                     </div>
+                    <div class="zoom-effect">
 					<figure class="cbp-so-side cbp-so-side-left twitch">
 						<a href="http://www.twitch.com"><img src="img/bg1.png" class="contact" alt="twitch"></a>
 					</figure>
+					</div>
+					<div class="zoom-effect">
 					<figure class="cbp-so-side cbp-so-side-right g2a">
 						<a href="http://www.g2a.com"><img src="img/bg3.png" class="contact" alt="g2a"></a>
 					</figure>
-					<article class="cbp-so-side cbp-so-side-left">
-						<div class="sponsor">
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						</div>
-					</article>
-					<article class="cbp-so-side cbp-so-side-right">
-						<div class="sponsor2">
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-						</div>
-					</article>
+					</div>
+					<div class="zoom-effect">
+					<figure class="cbp-so-side cbp-so-side-left me">
+						<a href="http://www.g2a.com"><img src="img/direBbMAT.png" class="contact" alt="g2a"></a>
+					</figure>
+					</div>
+					<div class="zoom-effect">
+					<figure class="cbp-so-side cbp-so-side-right hx">
+						<a href="http://www.g2a.com"><img src="img/hyperXmanufacturer.png" class="contact" alt="g2a"></a>
+					</figure>
+					</div>
 				</section>
                 </div>
             </div>
         </div>
     </header>
-    <div id="cbp-so-scroller" class="cbp-so-scroller">
+
          <header class="intro-header sponsorour" style="background-image: url('img/bg3.jpg');height:700px;">
 
                 
@@ -134,7 +127,7 @@
 					    <div class="team-reveal__item"
 					      style="background-image: url(img/player_loda-9f38741c.jpg)">
 					      <div class="team-reveal__name">
-					        <span>=</span>
+					        <span class="new">=</span>
 					        Loda
 					      </div>
 					      <div class="ig">
@@ -148,7 +141,7 @@
 					    <div class="team-reveal__item"
 					      style="background-image: url(img/player_EGM-4ef7417b.jpg)">
 					      <div class="team-reveal__name">
-					        <span>+</span>
+					        <span class="new">+</span>
 					        EGM
 					      </div>
 					      <div class="ig">
@@ -207,7 +200,6 @@
 					  </article>
 				</section>
     			</header>
-
     <header class="intro-header sponsorour" style="background-image: url('img/bg1.jpg');height:100%;">
         <div class="container">
             <div class="row">
@@ -250,26 +242,54 @@
     </header>
 	</div>    
 
-
-
-    <script src="js/classie.js"></script>
+		<div class="foot">
+			<p>Muhmmad Dandy C Copyright © 2017.  All rights and lefts reserved  </p>
+		</div>
+    	<script src="js/classie.js"></script>
 		<script src="js/cbpScroller.js"></script>
 		<script>
 			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
 		</script>
 <script src="vendor/jquery/jquery.min.js"></script>
-		<script src="js/classie.js"></script>
-		<script src="js/cbpScroller.js"></script>
 
-    
+	<script>
+	/* loading page js */
+			$(window).load(function() {
+
+			    var $loader = $('.loader');
+
+			    $loader.find('.fading-line').fadeOut();
+			    $loader.fadeOut("slow");
+			});
+
+		/* end loading page js */
+		$("#spon").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#sponsors").offset().top
+    }, 1700);
+});
+		$("#begin").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#sponsors").offset().top
+    }, 1700);
+});
+		$("#homes").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#home").offset().top
+    }, 1700);
+});
+		$("#teams").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#team").offset().top
+    }, 1700);
+});
+		$("#contacts").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 1700);
+});
+	</script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-
     <script src="js/clean-blog.min.js"></script>
-
 </body>
 </html>
